@@ -1,0 +1,40 @@
+/* 공통 */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.space{clear: both;}
+.wrap{width: 1896px; margin: 0 auto;}
+
+
+/* 헤더부분 */
+.header{width: 100%; height: 90px; background-color: black;}
+.header>.inner{height: 90px; position: relative; line-height: 90px;}
+.inner{width: 1400px; margin: 0 auto; position: relative;}
+.logo{width: 27px; height: 30px; float: left; padding-top: 5px;}
+.menu{position: absolute; width: 600px; left: 0; right: 0; margin: 0 auto;}
+.menu>li{width: 100px; float: left; text-align: center; color: #fff;
+ padding-left: 10px; padding-right: 30px;}
+ .icon{float: right; position: absolute; right: 0; top: 10px;}
+
+/* 메인이미지*/
+.mainimg{width: 1896px; height: 763px;}
+
+/* 콘텐츠부분 */
+.contents{width: 100%; height: 900px; background-color: #fff;}
+.contents_sub{width: 100%; height: 600px; background-color: #000;}
+.list{width: 25%; float: left;}
+.list>h2{padding-bottom: 20px; padding-top: 100px; color: #fff; font-size: 40px;}
+.list>p{padding-bottom: 40px; font-size: 12px; color: #fff;} 
+.list>div{width: 325px; height: 261px; text-align: center; color: ;}
+.box2{width: 100%; height: 240px; margin-top: 50px;}
+.box2-1{height: 240px;}
+.box_text{float: left;}
+.box2-2{float: right;}
+.box_text>p{padding-top: 50px; padding-bottom: 50px; font-size: 40px; float: right;}
+.box_text>img{float: left; padding-top: 50px;}
+.box2-2{float: right; padding-top: 50px;}
+
+/* 푸터부분 */
+.footer{width: 100%; height: 100px; border-top: 1px solid #666; padding-top: 20px;}
+.inner>.footer_info{width: 100%; font-size: 11px; float: left; margin-top: 30px;}
+.footer_info>p>span{font-size: 13px; font-weight: bold; color: #000;}
+.footer_btn>li{float: right; padding-bottom: 100px; padding-left: 20px;}
