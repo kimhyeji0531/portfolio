@@ -2862,7 +2862,7 @@ textarea.form-control.is-invalid {
 .btn.focus,
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+
 }
 
 .btn.disabled,
@@ -2890,7 +2890,7 @@ fieldset:disabled a.btn {
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
-    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+   
 }
 
 .btn-primary.disabled,
@@ -2901,12 +2901,13 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    color: #fff;}
+    color: #fff;
+background-color: #e76c81!important;}
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+   
 }
 
 .btn-secondary {
@@ -3204,12 +3205,12 @@ fieldset:disabled a.btn {
 .btn-outline-primary:hover {
     color: #fff;
     background-color: #007bff;
-    border-color: #007bff
+ 
 }
 
 .btn-outline-primary.focus,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+    
 }
 
 .btn-outline-primary.disabled,
@@ -3223,13 +3224,13 @@ fieldset:disabled a.btn {
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
     background-color: #007bff;
-    border-color: #007bff
+ 
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+  
 }
 
 .btn-outline-secondary {
@@ -3317,7 +3318,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-info.focus,
 .btn-outline-info:focus {
-    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+
 }
 
 .btn-outline-info.disabled,
@@ -3337,7 +3338,8 @@ fieldset:disabled a.btn {
 .btn-outline-info:not(:disabled):not(.disabled).active:focus,
 .btn-outline-info:not(:disabled):not(.disabled):active:focus,
 .show>.btn-outline-info.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+
+    
 }
 
 .btn-outline-warning {
@@ -3876,13 +3878,17 @@ input[type=submit].btn-block {
 .btn-group>.btn-group:not(:last-child)>.btn,
 .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
     border-top-right-radius: 0;
-    border-bottom-right-radius: 0
+    border-bottom-right-radius: 0;
+    background-color: #eda7b1;
+    color: #fff;
 }
 
 .btn-group>.btn-group:not(:first-child)>.btn,
 .btn-group>.btn:not(:first-child) {
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0
+    border-bottom-left-radius: 0;
+    background-color: #eda7b1;
+    color: #fff;
 }
 
 .dropdown-toggle-split {
